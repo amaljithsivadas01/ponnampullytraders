@@ -340,6 +340,9 @@ nav a img{
   height: 100%;
   width: 100%;
 }
+.mySlides{
+  display: none;
+}
 
 /* swiper button */
 .swiper-navBtn{
