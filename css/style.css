@@ -253,6 +253,9 @@ h4{
 
 /* nav responsive */
 @media screen and (max-width: 768px) {
+  .header{
+   
+  }
   .contact-content{
     display: none;
   }
@@ -273,7 +276,7 @@ nav a img{
     max-width: 300px;
     width: 100%;
     height: 100%;
-    z-index: var(--z-fixed);
+    z-index: ;
     padding: 10rem 0 5rem;
     background-color: var(--white-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -285,6 +288,7 @@ nav a img{
   }
   .nav .menu-content.open{
     right: 0;
+
   }
   .menu-list{
     flex-direction: column;
@@ -785,9 +789,7 @@ section h6 {
   .whyUs{
     font-size: 1.5rem;
   }
-  .whatsapp{
-    
-  }
+
   .review .swiper{
     padding-bottom: 6.5rem;
   }
@@ -899,3 +901,131 @@ section h6 {
 }
 }
 
+/* new */
+
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+  margin-top: 20px;
+}
+.item .thumb {
+width: 25%;
+cursor: pointer;
+float: left;
+}
+.item .thumb img {
+width: 100%;
+margin: 2px;
+}
+.item img {
+width: 100%;	
+}
+
+/* products */
+.BLAH{
+  width: 100%;
+  height:8VH;
+  background-color: var(--primary-color-hover);
+}
+#product{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+.cont{
+  width: 900px;
+  height: 600px;
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+}
+.cont .img-box{
+  width: 50%;
+  height: 100%;
+  background: #000a00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cont .img-box img{
+ width: 100%;  
+}
+.cont .text-box{
+  width: 50%;
+  padding:20px 30px ;
+  box-sizing: border-box;
+}
+.cont .text-box h1{
+font-size: 3em;
+color: #000a00;
+line-height: 1em;
+
+}
+.cont .text-box h1 span{
+  font-size: .4em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.cont .text-box p{
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #222;
+}
+.cont .text-box h2{
+  font-size: 3em;
+  font-weight: 600;
+  /* float: left; */
+  color: var(--primary-color);
+}
+.cont .text-box a{
+text-decoration: none;
+ border: none;
+ outline: none;
+ cursor: pointer;
+ background:var(--primary-color);
+ padding: 15px 100px ;
+ text-transform:uppercase;
+ font-size: 1.5em;
+ color: #f9f1ec;
+  /* float: right; */
+ border-radius: 5px;
+ margin:15px;
+  
+}
+.cont .text-box BR{
+   margin-top: 150px;
+}
+@media screen and (max-width: 1080px) {
+
+  .cont{
+    height:auto;
+  }
+  .cont .img-box{
+     width:100%
+  }
+  .cont .img-box img{
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+.cont .text-box{
+  width: 100%;
+}
+.cont .text-box h1{ 
+  font-size: 2em;
+  line-height:.8em ;
+}
+.cont .text-box h2{
+ font-size: 2em;
+ font-weight: 300;
+}
+.cont .text-box a{
+ padding: 15px 120px;
+ font-size: 1em;
+ margin-top:20px ;
+}
+}
